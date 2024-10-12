@@ -135,6 +135,7 @@ font-family: "Crimson text",sans-serif;
   /* Title Styling */
   .help-txt {
     font-family: "Arizonia",sans-serif;
+    font-weight: 500;
     font-size: 4rem;
     margin: 0 2rem;
     white-space: nowrap;
@@ -214,27 +215,30 @@ font-family: "Crimson text",sans-serif;
 }
 
 .heading2 {
-    padding: 2rem;
+    padding-left: 1.5rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
     margin: 2rem 0 0 2rem;
     font-size: xx-large;
     text-transform: uppercase;
 }
 
 .p2{
-    margin: 0 0 1rem 6rem;
+   padding-left: 4.3rem;
      font-size: x-large;
      align-self: center;
 }
 
 .points {
-    margin: 1rem 0 0 6rem;
+    padding-top: 1rem;
+    padding-left: 7rem;
      font-size: x-large;
      align-self: center;
      line-height: 2.5rem;
 }
 
 
-/* It includes the Css of contact-us box */
+/* It includes the Css of feedback box */
 
 .feedback{
     margin: 3rem 4rem;
@@ -253,7 +257,7 @@ font-family: "Crimson text",sans-serif;
 }
 
 .p3{
-    margin: 0 0 1rem 4rem;
+    padding-left: 4.5rem;
      font-size: x-large;
      align-self: center;
 }

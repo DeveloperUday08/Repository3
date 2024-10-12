@@ -176,7 +176,7 @@ body{
     padding: 1rem;
     border-radius: 15px;
     height: 20rem;
-    width: 70%;
+    width: 45rem;
     margin: 2rem auto;
     box-shadow: 0 8px 15px rgba(0, 0, 0, 0.6); 
     text-align: center; /* Center alignment for the content */
@@ -193,27 +193,31 @@ body{
 }
 
 .input-row label {
-    font-size: 1.8em;
-    margin-right: 2rem;
+  padding-top: 2rem;
+    font-size: 1.5em;
+    margin-right: 1rem;
+    margin-left: 5rem;
     color: #000;
 }
 
 .input-row input {
-  height: 2.5rem;
+    margin-top: 2rem;
+    height: 2.5rem;
     flex: 1;
     padding: 1rem;
     border-radius: 30px;
     border: 1.5px solid black;
-    font-size: 1.1em;
+    font-size: 0.9em;
+    margin-right: 8rem;
 }
 
 button {
-  height: 2.5rem;
-  width: 50%;
+    height: 2.5rem;
+    width: 10rem;
     font-size: 1.5em;
     border-radius: 50px;
-    background-color: #0052cc;
-    color: black;
+    background-color: #1597E0;
+    color: white;
     border: 1.5px solid black;
     cursor: pointer;
     margin-top: 2rem;
@@ -226,16 +230,43 @@ button:hover {
 
 .book-appointment {
   display: block;
-    font-size: 1.5em;
+    font-size: 1rem;
     color: black;
     text-decoration: underline;
-    padding-right: 35rem;
+    padding-right: 30rem;
 }
 
 .book-appointment:hover {
     color: #003399
 }
 
+/* It includes the css of line with two dots */
+
+.line-with-dots {
+  position: relative;
+  width: 60rem; /* Adjust the width of the line */
+  height: 1px; /* Thickness of the line */
+  background-color: black;
+  margin: 50px auto; /* Center the line horizontally */
+}
+
+.line-with-dots::before, .line-with-dots::after {
+  content: '';
+  position: absolute;
+  width: 10px; /* Size of the dots */
+  height: 10px;
+  background-color: black;
+  border-radius: 50%;
+  top: -4px; /* Adjust the vertical position of the dots */
+}
+
+.line-with-dots::before {
+  left: -10px; /* Position the left dot */
+}
+
+.line-with-dots::after {
+  right: -10px; /* Position the right dot */
+}
 
 /* It includes the css of footer */
 
@@ -254,13 +285,13 @@ button:hover {
   
   .left-section li {
     margin-bottom: 10px;
-    font-size: 16px;
+    font-size: 1.3rem;
     color: #000;
   }
   
   .center-section p {
     
-    font-size: 16px;
+    font-size: 1.3rem;
     margin-bottom: 10px;
     color: #000;
   }
@@ -270,7 +301,7 @@ button:hover {
   }
   
   .right-section p {
-    font-size: 20px;
+    font-size: 1.3rem;
     color: #5a5151;
     margin-bottom: 10px;
     margin-left: 0.5rem;

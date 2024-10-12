@@ -141,7 +141,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    animation: slideAnimation 12s infinite;
+    animation: slideAnimation 8s infinite;
   }
   
   .slide {
@@ -239,15 +239,20 @@ body{
   margin-right: 5.5rem;
 }
 
+big{
+  font-size: larger;
+  font-weight: 600;
+}
+
 /* Paragraph Section */
 .paragraph-container {
   width: 60%;
 }
 
 p {
-  font-size: 1.1em;
+  font-size: 1.2em;
   text-align: left;
-  line-height: 1.5;
+  line-height: 2;
 }
 
 /* Image Section Floating to the Right */
@@ -355,6 +360,32 @@ p {
   height: 20em;
   background-color: #000;
   margin: 0 3rem;
+}
+
+.line-with-dots {
+  position: relative;
+  width: 40rem; /* Adjust the width of the line */
+  height: 1px; /* Thickness of the line */
+  background-color: black;
+  margin: 50px auto; /* Center the line horizontally */
+}
+
+.line-with-dots::before, .line-with-dots::after {
+  content: '';
+  position: absolute;
+  width: 10px; /* Size of the dots */
+  height: 10px;
+  background-color: black;
+  border-radius: 50%;
+  top: -4px; /* Adjust the vertical position of the dots */
+}
+
+.line-with-dots::before {
+  left: -10px; /* Position the left dot */
+}
+
+.line-with-dots::after {
+  right: -10px; /* Position the right dot */
 }
 
 /* It includes the css of footer */

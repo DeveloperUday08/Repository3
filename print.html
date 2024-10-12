@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
     <link rel="stylesheet" href="print.css">
     <link href="https://fonts.googleapis.com/css2?family=Arizonia&family=Crimson+Text&display=swap" rel="stylesheet">
-    <title>Sparsh</title>
+    <title>Print Appointment</title>
 </head>
 <body>
  <!-- It includes only Head part -->
@@ -47,7 +47,7 @@
             <li class="dropdown">
                 <a href="#">Services</a>
                 <ul class="dropdown-content">
-                    <li><a href="#"><i class="fa-solid fa-calendar-day"></i>&ensp;Book Appointment</a></li>
+                    <li><a href="bookappointment.html"><i class="fa-solid fa-calendar-day"></i>&ensp;Book Appointment</a></li>
                     <li><a href="download.html"><i class="fa-solid fa-download"></i>&ensp;Download Appointment</a></li>
                     <li><a href="#"><i class="fa-solid fa-location-dot"></i>&ensp;Locate Appointment</a></li>
                     <li><a href=""><i class="fa-solid fa-fingerprint"></i>&ensp;Create ABHA Card</a></li>
@@ -57,7 +57,9 @@
             <li class="dropdown">
                 <a href="#">Profiles</a>
                 <ul class="dropdown-content">
+                    <li><a href="userregistration.html"><i class="fa-solid fa-users-line"></i>&ensp;User Registration</a></li>
                     <li><a href="user.html"><i class="fa-solid fa-users-line"></i>&ensp;User Login</a></li>
+                    <li><a href="doctorregistration.html"><i class="fa-solid fa-user-doctor"></i>&ensp;Doctor Registration</a></li>
                     <li><a href="doctorlogin.html"><i class="fa-solid fa-user-doctor"></i>&ensp;Doctor Login</a></li>
                     <li><a href="regional.html"><i class="fa-solid fa-globe"></i>&ensp;Regional/Area Login</a></li>
                 </ul>
@@ -81,11 +83,7 @@
                 </ul>
             </li>
             <li class="dropdown">
-                <a href="#">Contact Us</a>
-                <ul class="dropdown-content">
-                    <li><a href="#"><i class="fa-solid fa-envelope"></i>&ensp;sparsh.healthservice@gmail.com</a></li>
-                    <li><a href="#"><i class="fa-solid fa-phone"></i>&ensp;0123456789</a></li>
-                </ul>
+                <a href="contactus.html">Contact Us</a>
             </li>
         
         </ul>
@@ -100,14 +98,14 @@
     
        <div class="appointment-box">
         <div class="input-row">
-            <label for="appointment-number">Enter your Appointment Number:</label>
-            <input type="text" id="appointment-number" placeholder="Enter the appointment number">
+            <label for="appointment-number"> Appointment Number:</label>
+            <input type="text" id="appointment-number" placeholder="Enter your appointment number" required>
         </div>
         <button type="submit">Submit</button>
-        <a href="#" class="book-appointment">Book an Appointment?</a>
+        <a href="#" class="book-appointment">Book an Appointment ?</a>
     </div>
     
-
+    <div class="line-with-dots"></div>
 
     <!-- It includes the footer part -->
 
