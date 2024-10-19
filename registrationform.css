@@ -130,7 +130,7 @@ body{
 .w3-content {
   max-width: 75rem;
   overflow: hidden;
-  max-height: 30rem;
+  max-height: 20rem;
   margin: 2rem 4rem;
   border-radius: 30px;
 }
