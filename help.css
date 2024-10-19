@@ -342,13 +342,13 @@ font-family: "Crimson text",sans-serif;
 
 .left-section li {
   margin-bottom: 10px;
-  font-size: 16px;
+  font-size: 1.1rem;
   color: #000;
 }
 
 .center-section p {
   
-  font-size: 16px;
+  font-size: 1.1rem;
   margin-bottom: 10px;
   color: #000;
 }
@@ -358,7 +358,7 @@ font-family: "Crimson text",sans-serif;
 }
 
 .right-section p {
-  font-size: 20px;
+  font-size: 1.1rem;
   color: #5a5151;
   margin-bottom: 10px;
   margin-left: 0.5rem;

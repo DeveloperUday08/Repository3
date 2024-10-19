@@ -92,33 +92,14 @@
 
  <!-- It includes the image slider -->
 
-    <div class="container">
-        <div class="slides">
-        <!-- Image 1 -->
-        <div class="slide">
-            <img class="slide-img"  src="img/med form fillin.jpg" alt="Image 1">
-        </div>
-        <!-- Image 2 -->
-        <div class="slide">
-            <img class="slide-img" src="img/form filling.jpg" alt="Image 2">
-        </div>
-        <!-- Image 3 -->
-        <div class="slide">
-            <img class="slide-img"  src="img/med form.jpg" alt="Image 3">
-        </div>
-        <!-- Image 4 -->
-        <div class="slide">
-            <img class="slide-img"  src="img/medical form.jpg" alt="Image 4">
-        </div>
-        <!-- Image 5 -->
-        <div class="slide">
-            <img class="slide-img"  src="img/woman med form.jpg" alt="Image 5">
-        </div>
-        </div>
-    </div>
+ <div class="w3-content w3-section" >
+    <img class="mySlides" src="img/paediatrician.jpg" >
+    <img class="mySlides" src="img/stethoscope.jpg" >
+    <img class="mySlides" src="img/doctor and patient.jpg">
+  </div>
 
 
-
+  <!-- It includes the  text -->
     <div class="welcome">
         <div class="line"></div>
         <h1 class="wlcm-txt">Registration Form</h1>
@@ -204,4 +185,20 @@
             </div>
         </div>
     </footer>
-    
+    <script>
+        var myIndex = 0;
+        carousel();
+        
+        function carousel() {
+          var i;
+          var x = document.getElementsByClassName("mySlides");
+          for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";  
+          }
+          myIndex++;
+          if (myIndex > x.length) {myIndex = 1}    
+          x[myIndex-1].style.display = "block";  
+          setTimeout(carousel, 2000); // Change image every 2 seconds
+        }
+        </script>
+    </body>

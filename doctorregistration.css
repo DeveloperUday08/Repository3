@@ -221,7 +221,7 @@ body{
     border-radius: 30px;
     border: none;
     background-color: #a8a2a2;
-    color: white;
+    color: black;
 }
 
 .login-left button {
@@ -301,7 +301,10 @@ body{
   .line-with-dots::after {
     right: -10px; /* Position the right dot */
   }
+
+
 /* It includes the css of footer */
+
 
 .footer-container {
     display: flex;
@@ -318,13 +321,13 @@ body{
   
   .left-section li {
     margin-bottom: 10px;
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     color: #000;
   }
   
   .center-section p {
     
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     margin-bottom: 10px;
     color: #000;
   }
@@ -334,7 +337,7 @@ body{
   }
   
   .right-section p {
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     color: #5a5151;
     margin-bottom: 10px;
     margin-left: 0.5rem;
